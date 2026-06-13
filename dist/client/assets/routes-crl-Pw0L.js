@@ -1,0 +1,1 @@
+import{c as e}from"./index-DzsT7Fl6.js";import{a as t,c as n,i as r,l as i,n as a,r as o,s,t as c}from"./sections-w0oP-YmB.js";var l=e();function u(){return(0,l.jsxs)(i,{children:[(0,l.jsx)(r,{}),(0,l.jsx)(t,{}),(0,l.jsx)(c,{}),(0,l.jsx)(a,{limit:3}),(0,l.jsx)(o,{limit:4}),(0,l.jsx)(s,{limit:3}),(0,l.jsx)(n,{})]})}export{u as component};
