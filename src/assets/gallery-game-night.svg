@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Game night illustration</title>
+  <desc id="desc">Four players around a glowing board game table with cards, tokens, and dice.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#47277f"/>
+      <stop offset=".55" stop-color="#15172f"/>
+      <stop offset="1" stop-color="#05070f"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" x2="1">
+      <stop offset="0" stop-color="#10b7ff"/>
+      <stop offset=".5" stop-color="#50ff83"/>
+      <stop offset="1" stop-color="#ff2d72"/>
+    </linearGradient>
+    <filter id="softGlow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g opacity=".2" stroke="#fff" stroke-width="3">
+    <path d="M130 120h940M130 230h940M130 340h940M130 450h940"/>
+    <path d="M230 80v560M430 80v560M630 80v560M830 80v560M1030 80v560"/>
+  </g>
+  <ellipse cx="600" cy="420" rx="390" ry="190" fill="#020617" opacity=".55"/>
+  <rect x="300" y="270" width="600" height="300" rx="70" fill="#111827" stroke="url(#table)" stroke-width="12" filter="url(#softGlow)"/>
+  <rect x="415" y="330" width="125" height="86" rx="14" fill="#ff2d72"/>
+  <rect x="560" y="330" width="125" height="86" rx="14" fill="#f8f527"/>
+  <rect x="705" y="330" width="125" height="86" rx="14" fill="#10b7ff"/>
+  <circle cx="515" cy="485" r="28" fill="#50ff83"/>
+  <circle cx="600" cy="485" r="28" fill="#ff9d1c"/>
+  <circle cx="685" cy="485" r="28" fill="#bc38ff"/>
+  <g fill="#ffcfdb">
+    <circle cx="600" cy="160" r="58"/>
+    <circle cx="600" cy="675" r="58"/>
+    <circle cx="185" cy="425" r="58"/>
+    <circle cx="1015" cy="425" r="58"/>
+  </g>
+  <g fill="#0f172a" stroke="#fff" stroke-width="5">
+    <path d="M520 210h160l50 85H470z"/>
+    <path d="M520 590h160l50-85H470z"/>
+    <path d="M248 345v160l85 50V295z"/>
+    <path d="M952 345v160l-85 50V295z"/>
+  </g>
+  <text x="80" y="720" fill="#fff" font-family="Impact, Arial Black, sans-serif" font-size="76">GAME NIGHT</text>
+</svg>

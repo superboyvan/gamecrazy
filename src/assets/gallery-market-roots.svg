@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Market roots illustration</title>
+  <desc id="desc">A bright tabletop games booth with a canopy, shelves, and Game Crazy signage.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset=".62" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="sign" x1="0" x2="1">
+      <stop offset="0" stop-color="#9cff1f"/>
+      <stop offset=".32" stop-color="#ffd21f"/>
+      <stop offset=".66" stop-color="#ff263f"/>
+      <stop offset="1" stop-color="#a52cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="1025" cy="125" r="90" fill="#ffd21f" opacity=".85"/>
+  <path d="M0 610h1200v190H0z" fill="#07111f"/>
+  <path d="M145 235h910l-92 170H237z" fill="url(#sign)" stroke="#020617" stroke-width="10"/>
+  <path d="M210 405h780v245H210z" fill="#111827" stroke="#38bdf8" stroke-width="8"/>
+  <g fill="#f8fafc" opacity=".9">
+    <rect x="260" y="455" width="150" height="40" rx="8"/>
+    <rect x="260" y="520" width="150" height="40" rx="8"/>
+    <rect x="450" y="455" width="150" height="40" rx="8"/>
+    <rect x="450" y="520" width="150" height="40" rx="8"/>
+    <rect x="640" y="455" width="150" height="40" rx="8"/>
+    <rect x="640" y="520" width="150" height="40" rx="8"/>
+  </g>
+  <rect x="820" y="455" width="116" height="120" rx="16" fill="#ef233c"/>
+  <g fill="#fff">
+    <circle cx="850" cy="485" r="8"/>
+    <circle cx="908" cy="485" r="8"/>
+    <circle cx="879" cy="515" r="8"/>
+    <circle cx="850" cy="545" r="8"/>
+    <circle cx="908" cy="545" r="8"/>
+  </g>
+  <text x="258" y="350" fill="#050816" font-family="Impact, Arial Black, sans-serif" font-size="94">GAME CRAZY</text>
+  <text x="92" y="720" fill="#fff" font-family="Impact, Arial Black, sans-serif" font-size="70">MARKET ROOTS</text>
+</svg>

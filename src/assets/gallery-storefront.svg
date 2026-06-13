@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Game Crazy storefront illustration</title>
+  <desc id="desc">A neon storefront at night with glowing windows, signs, and a red die by the entrance.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".45" stop-color="#16213e"/>
+      <stop offset="1" stop-color="#3b0764"/>
+    </linearGradient>
+    <linearGradient id="rainbow" x1="0" x2="1">
+      <stop offset="0" stop-color="#8aff19"/>
+      <stop offset=".26" stop-color="#ffe01f"/>
+      <stop offset=".52" stop-color="#ff263f"/>
+      <stop offset=".74" stop-color="#21b7ff"/>
+      <stop offset="1" stop-color="#b134ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#night)"/>
+  <path d="M0 615h1200v185H0z" fill="#040812"/>
+  <rect x="135" y="180" width="930" height="440" rx="24" fill="#111827" stroke="#334155" stroke-width="10"/>
+  <rect x="190" y="250" width="820" height="110" rx="20" fill="#020617" stroke="url(#rainbow)" stroke-width="8" filter="url(#glow)"/>
+  <text x="285" y="328" fill="url(#rainbow)" font-family="Impact, Arial Black, sans-serif" font-size="78">GAME CRAZY</text>
+  <rect x="215" y="410" width="250" height="170" rx="18" fill="#0ea5e9" opacity=".75"/>
+  <rect x="495" y="410" width="210" height="210" rx="18" fill="#111827" stroke="#f8fafc" stroke-width="5"/>
+  <rect x="735" y="410" width="250" height="170" rx="18" fill="#a855f7" opacity=".72"/>
+  <path d="M495 620h210" stroke="#38bdf8" stroke-width="8"/>
+  <g transform="translate(910 585) rotate(10)">
+    <rect width="115" height="115" rx="20" fill="#ef233c"/>
+    <g fill="#fff">
+      <circle cx="34" cy="34" r="8"/>
+      <circle cx="58" cy="58" r="8"/>
+      <circle cx="82" cy="82" r="8"/>
+      <circle cx="82" cy="34" r="8"/>
+      <circle cx="34" cy="82" r="8"/>
+    </g>
+  </g>
+  <text x="90" y="724" fill="#e0f2fe" font-family="Impact, Arial Black, sans-serif" font-size="66">LEESBURG STOREFRONT</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Board game wall illustration</title>
+  <desc id="desc">A wall of colorful board game boxes stacked on shelves with neon lighting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset=".55" stop-color="#17113d"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="rainbow" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff236d"/>
+      <stop offset=".2" stop-color="#ff9d1c"/>
+      <stop offset=".4" stop-color="#f8f527"/>
+      <stop offset=".6" stop-color="#4dff74"/>
+      <stop offset=".8" stop-color="#21b7ff"/>
+      <stop offset="1" stop-color="#bc38ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="90" y="100" width="1020" height="570" rx="28" fill="#0f172a" stroke="#38bdf8" stroke-width="8"/>
+  <g stroke="#475569" stroke-width="8">
+    <path d="M130 235h940M130 380h940M130 525h940"/>
+  </g>
+  <g>
+    <rect x="150" y="130" width="110" height="95" rx="10" fill="#ff236d"/>
+    <rect x="280" y="130" width="130" height="95" rx="10" fill="#f8f527"/>
+    <rect x="430" y="130" width="95" height="95" rx="10" fill="#21b7ff"/>
+    <rect x="545" y="130" width="145" height="95" rx="10" fill="#4dff74"/>
+    <rect x="710" y="130" width="120" height="95" rx="10" fill="#bc38ff"/>
+    <rect x="850" y="130" width="190" height="95" rx="10" fill="#ff9d1c"/>
+    <rect x="165" y="275" width="160" height="95" rx="10" fill="#21b7ff"/>
+    <rect x="345" y="275" width="105" height="95" rx="10" fill="#bc38ff"/>
+    <rect x="470" y="275" width="180" height="95" rx="10" fill="#ff236d"/>
+    <rect x="670" y="275" width="120" height="95" rx="10" fill="#f8f527"/>
+    <rect x="810" y="275" width="210" height="95" rx="10" fill="#4dff74"/>
+    <rect x="145" y="420" width="125" height="95" rx="10" fill="#f8f527"/>
+    <rect x="290" y="420" width="190" height="95" rx="10" fill="#ff9d1c"/>
+    <rect x="500" y="420" width="115" height="95" rx="10" fill="#21b7ff"/>
+    <rect x="635" y="420" width="155" height="95" rx="10" fill="#ff236d"/>
+    <rect x="810" y="420" width="230" height="95" rx="10" fill="#bc38ff"/>
+  </g>
+  <g fill="#020617" opacity=".42">
+    <path d="M180 160h50v35h-50zM320 158h50v36h-50zM575 158h50v36h-50zM895 158h80v36h-80z"/>
+    <path d="M210 305h70v35h-70zM505 305h90v35h-90zM850 305h115v35h-115z"/>
+    <path d="M185 450h50v35h-50zM345 450h80v35h-80zM850 450h135v35h-135z"/>
+  </g>
+  <rect x="90" y="670" width="1020" height="14" fill="url(#rainbow)"/>
+  <text x="92" y="740" fill="url(#rainbow)" font-family="Impact, Arial Black, sans-serif" font-size="78">BOARD GAME WALL</text>
+</svg>

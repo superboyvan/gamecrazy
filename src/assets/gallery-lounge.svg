@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Game Crazy lounge illustration</title>
+  <desc id="desc">A neon tabletop lounge with shelves, tables, dice, cards, and colorful lights.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.45" stop-color="#25104d"/>
+      <stop offset="1" stop-color="#031b2e"/>
+    </linearGradient>
+    <linearGradient id="rainbow" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff236d"/>
+      <stop offset="0.22" stop-color="#ff9d1c"/>
+      <stop offset="0.43" stop-color="#f8f527"/>
+      <stop offset="0.64" stop-color="#4dff74"/>
+      <stop offset="0.82" stop-color="#21b7ff"/>
+      <stop offset="1" stop-color="#bc38ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="1010" cy="120" r="180" fill="#ff236d" opacity=".18"/>
+  <circle cx="190" cy="690" r="220" fill="#21b7ff" opacity=".15"/>
+  <path d="M0 610 C220 500 390 720 610 600 C780 505 960 450 1200 520 V800 H0 Z" fill="#020617" opacity=".78"/>
+  <rect x="92" y="130" width="330" height="390" rx="28" fill="#101827" stroke="#69e8ff" stroke-width="6"/>
+  <g fill="#f8f527" opacity=".94">
+    <rect x="130" y="180" width="250" height="32" rx="8"/>
+    <rect x="130" y="246" width="250" height="32" rx="8"/>
+    <rect x="130" y="312" width="250" height="32" rx="8"/>
+    <rect x="130" y="378" width="250" height="32" rx="8"/>
+    <rect x="130" y="444" width="250" height="32" rx="8"/>
+  </g>
+  <g transform="translate(540 285)">
+    <ellipse cx="185" cy="245" rx="250" ry="54" fill="#000" opacity=".34"/>
+    <rect x="20" y="95" width="330" height="190" rx="38" fill="#172554" stroke="#21b7ff" stroke-width="8"/>
+    <rect x="80" y="40" width="210" height="90" rx="20" fill="#0f172a" stroke="url(#rainbow)" stroke-width="8" filter="url(#glow)"/>
+    <circle cx="88" cy="212" r="38" fill="#ff236d"/>
+    <circle cx="280" cy="212" r="38" fill="#4dff74"/>
+    <rect x="138" y="170" width="92" height="76" rx="14" fill="#f8f527"/>
+  </g>
+  <g transform="translate(870 480) rotate(12)">
+    <rect x="0" y="0" width="150" height="150" rx="24" fill="#ef233c" stroke="#ffb4c8" stroke-width="6"/>
+    <g fill="#fff">
+      <circle cx="44" cy="44" r="10"/>
+      <circle cx="75" cy="75" r="10"/>
+      <circle cx="106" cy="106" r="10"/>
+      <circle cx="106" cy="44" r="10"/>
+      <circle cx="44" cy="106" r="10"/>
+    </g>
+  </g>
+  <text x="92" y="710" fill="url(#rainbow)" font-family="Impact, Arial Black, sans-serif" font-size="72" letter-spacing="2">THE LOUNGE</text>
+</svg>
